@@ -7,7 +7,6 @@ public class Worker implements Runnable {
 	
 	public Worker(ConcurrentLinkedQueue<Task> taskQueue) {
 		this.taskQueue = taskQueue;
-		
 	}
 	
 	public void run() {
